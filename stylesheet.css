@@ -1,10 +1,20 @@
 * {
-    font: Roboto;
+    font-family: "Roboto";
     background-color: #1F2937;
 }
 
-.navbar {
+section {
+    display: block;
+}
 
+.navbar a {
+    display: flex;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .header-logo {
@@ -14,11 +24,14 @@
 
 
 .hero {
-
+    display: flex;
+    justify-content: center;
 }
 
 .hero-main {
-    
+    display: flex;
+    flex: 1;
+    flex-direction: row;
 }
 
 .left-side {
@@ -36,8 +49,11 @@
     color: #E5E7EB;
 }
 
-.signup .fill {
+button {
     background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
 }
 
 .signup .hollow {
@@ -45,15 +61,17 @@
 }
 
 .right-side {
-
+    background-color: lightgrey;
+    flex-direction: column;
 }
 
 .placeholder {
-
+    background-color: lightgrey;
+    align-self: center;
 }
 
 .info {
-
+    background-color: aliceblue;
 }
 
 .info-header {
@@ -97,7 +115,7 @@
 }
 
 .cta {
-
+    background-color: aliceblue;
 }
 
 .cta-div {
